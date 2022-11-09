@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.68/win64" 1667930030
+<REAPER_PROJECT 0.1 "6.68/win64" 1667984365
   <NOTES 0 2
   >
   RIPPLE 0
@@ -16,9 +16,9 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 0.00000000019268
-  ZOOM 8.36206572070382 0 0
-  VZOOMEX 4 64
+  CURSOR 3.29199727065104
+  ZOOM 4.22069435821508 0 0
+  VZOOMEX 4 0
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -59,7 +59,7 @@
   >
   GLOBAL_AUTO -1
   TEMPO 120 4 4
-  PLAYRATE 1 0 0.25 4
+  PLAYRATE 1 1 0.25 4
   SELECTION 195.6381895241505 219.4900843894863
   SELECTION2 195.6381895241505 219.4900843894863
   MASTERAUTOMODE 0
@@ -625,7 +625,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {9A9C0472-2EE0-4D46-BF9A-2566D3779948}
       IID 4
       NAME cochise.mp3
@@ -647,7 +647,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {F3143137-9A75-467D-A946-842048CA5E4C}
       IID 4
       NAME cochise.mp3
@@ -658,6 +658,557 @@
       GUID {B9DC30A8-B41A-4993-9276-F053B7ECEF14}
       <SOURCE MP3
         FILE "audio-in\cochise.mp3" 1
+      >
+    >
+  >
+  <TRACK {252537F9-6DCD-4CB7-B5DE-BA63F77DFEAA}
+    NAME VIDEO
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 -0.992 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 1
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {252537F9-6DCD-4CB7-B5DE-BA63F77DFEAA}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 2.73296578185068
+      SNAPOFFS 0
+      LENGTH 0.61808665346035
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A90AEF54-D7C0-429E-845E-3708BF50234B}
+      IID 207
+      NAME cochise-drum-cover.mp4
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E30928A2-4603-41E6-A93F-7C74213D6E4D}
+      <SOURCE VIDEO
+        FILE "video-in\cochise-drum-cover.mp4"
+      >
+    >
+    <ITEM
+      POSITION 3.35105243531103
+      SNAPOFFS 0
+      LENGTH 23.80665185446527
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      COLOR 16842496 R
+      SEL 0
+      IGUID {3CB622BD-993C-4C03-B2EC-D61135ADB5D4}
+      IID 207
+      NAME cochise-drum-cover.mp4
+      VOLPAN 1 0 1 -1
+      SOFFS 0.61808665346035
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6F8FE85C-E53E-4D69-AB65-12B41F3F0E45}
+      <SOURCE VIDEO
+        FILE "video-in\cochise-drum-cover.mp4"
+      >
+    >
+    <ITEM
+      POSITION 27.15770428977629
+      SNAPOFFS 0
+      LENGTH 23.9527637883342
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      COLOR 16842624 R
+      SEL 0
+      IGUID {BD248EEE-D5E3-48CB-B8C0-C3D306479550}
+      IID 207
+      NAME cochise-drum-cover.mp4
+      VOLPAN 1 0 1 -1
+      SOFFS 24.42473850792561
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2555BF29-2558-48D9-B9FB-CDC9E235D1A1}
+      <SOURCE VIDEO
+        FILE "video-in\cochise-drum-cover.mp4"
+      >
+    >
+    <ITEM
+      POSITION 51.11046807811049
+      SNAPOFFS 0
+      LENGTH 10.30669054664728
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      COLOR 16842751 R
+      SEL 0
+      IGUID {030C12AB-BE9F-442B-B935-C7C1E8A72113}
+      IID 207
+      NAME cochise-drum-cover.mp4
+      VOLPAN 1 0 1 -1
+      SOFFS 48.37750229625981
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1771B3A1-8667-460C-9136-372C3554237C}
+      <SOURCE VIDEO
+        FILE "video-in\cochise-drum-cover.mp4"
+      >
+    >
+    <ITEM
+      POSITION 61.41715862475778
+      SNAPOFFS 0
+      LENGTH 1.47802837061639
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      COLOR 16810239 R
+      SEL 0
+      IGUID {37FF4AB9-89EE-461C-A64C-A716033D6FDF}
+      IID 207
+      NAME cochise-drum-cover.mp4
+      VOLPAN 1 0 1 -1
+      SOFFS 58.68419284290709
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A7332B0A-9768-4339-8C90-65A0A13F57A5}
+      <SOURCE VIDEO
+        FILE "video-in\cochise-drum-cover.mp4"
+      >
+    >
+    <ITEM
+      POSITION 62.89518699537416
+      SNAPOFFS 0
+      LENGTH 22.37011319381239
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      COLOR 33554176 R
+      SEL 0
+      IGUID {D4A52B39-0979-4DC9-B875-7A1549FF049C}
+      IID 207
+      NAME cochise-drum-cover.mp4
+      VOLPAN 1 0 1 -1
+      SOFFS 60.16222121352348
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {98FDEDE5-F3B9-4CFA-AEDE-393C9AE890A9}
+      <SOURCE VIDEO
+        FILE "video-in\cochise-drum-cover.mp4"
+      >
+    >
+    <ITEM
+      POSITION 85.26530018918655
+      SNAPOFFS 0
+      LENGTH 1.48920302847546
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      COLOR 16810239 R
+      SEL 0
+      IGUID {24CA959B-1272-4C70-BDA4-4774947B5A08}
+      IID 207
+      NAME cochise-drum-cover.mp4
+      VOLPAN 1 0 1 -1
+      SOFFS 82.53233440733587
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D9D74DA8-CF4A-4D48-A653-BDC64F10DF1F}
+      <SOURCE VIDEO
+        FILE "video-in\cochise-drum-cover.mp4"
+      >
+    >
+    <ITEM
+      POSITION 86.75450321766201
+      SNAPOFFS 0
+      LENGTH 11.90871344278428
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      COLOR 16777471 R
+      SEL 0
+      IGUID {BE1C1CCA-41A0-4458-8CA2-BC2266B37935}
+      IID 207
+      NAME cochise-drum-cover.mp4
+      VOLPAN 1 0 1 -1
+      SOFFS 84.02153743581133
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C077C2A3-6173-4C6B-8C19-87BA9F8441EA}
+      <SOURCE VIDEO
+        FILE "video-in\cochise-drum-cover.mp4"
+      >
+    >
+    <ITEM
+      POSITION 98.66321666044628
+      SNAPOFFS 0
+      LENGTH 10.42916517128624
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      COLOR 16842496 R
+      SEL 0
+      IGUID {0AC8074E-463E-4499-AD1C-9867FD71AF79}
+      IID 207
+      NAME cochise-drum-cover.mp4
+      VOLPAN 1 0 1 -1
+      SOFFS 95.9302508785956
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1957C799-9505-4EE2-9DEB-2AA528F7B13B}
+      <SOURCE VIDEO
+        FILE "video-in\cochise-drum-cover.mp4"
+      >
+    >
+    <ITEM
+      POSITION 109.09238183173252
+      SNAPOFFS 0
+      LENGTH 1.49265512770695
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      COLOR 16810239 R
+      SEL 0
+      IGUID {2A27904E-A69B-4946-977B-1175EC0E0814}
+      IID 207
+      NAME cochise-drum-cover.mp4
+      VOLPAN 1 0 1 -1
+      SOFFS 106.35941604988184
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {80842A78-4CC1-4A65-B204-A60D649C51C2}
+      <SOURCE VIDEO
+        FILE "video-in\cochise-drum-cover.mp4"
+      >
+    >
+    <ITEM
+      POSITION 110.58503695943948
+      SNAPOFFS 0
+      LENGTH 22.3787472218482
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      COLOR 33554176 R
+      SEL 0
+      IGUID {494D6334-89D3-43FF-B859-E7FB8AAEC02C}
+      IID 207
+      NAME cochise-drum-cover.mp4
+      VOLPAN 1 0 1 -1
+      SOFFS 107.8520711775888
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C472D433-5BF1-4C36-8B44-57E83C7B728E}
+      <SOURCE VIDEO
+        FILE "video-in\cochise-drum-cover.mp4"
+      >
+    >
+    <ITEM
+      POSITION 132.96378418128768
+      SNAPOFFS 0
+      LENGTH 1.48948950091946
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      COLOR 16810239 R
+      SEL 0
+      IGUID {A87C7147-5EF6-48BD-809C-91B6B4A3B27C}
+      IID 207
+      NAME cochise-drum-cover.mp4
+      VOLPAN 1 0 1 -1
+      SOFFS 130.230818399437
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {14399AE6-B832-47F1-94CD-C3636270E955}
+      <SOURCE VIDEO
+        FILE "video-in\cochise-drum-cover.mp4"
+      >
+    >
+    <ITEM
+      POSITION 134.45327368220714
+      SNAPOFFS 0
+      LENGTH 23.88263052125055
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      COLOR 16777471 R
+      SEL 0
+      IGUID {7D6DCC31-AFA2-46BA-819D-B127B7C893F5}
+      IID 207
+      NAME cochise-drum-cover.mp4
+      VOLPAN 1 0 1 -1
+      SOFFS 131.72030790035646
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C0199E0B-F62F-4E6B-901A-292665988F29}
+      <SOURCE VIDEO
+        FILE "video-in\cochise-drum-cover.mp4"
+      >
+    >
+    <ITEM
+      POSITION 158.33590420345769
+      SNAPOFFS 0
+      LENGTH 10.45922399827782
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      COLOR 29392896 R
+      SEL 0
+      IGUID {61190D79-6121-4581-ABAD-7C2ED1F00E21}
+      IID 207
+      NAME cochise-drum-cover.mp4
+      VOLPAN 1 0 1 -1
+      SOFFS 155.60293842160701
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E7DB0556-3E66-47D2-B33F-CF8C54C96A06}
+      <SOURCE VIDEO
+        FILE "video-in\cochise-drum-cover.mp4"
+      >
+    >
+    <ITEM
+      POSITION 168.79512820173551
+      SNAPOFFS 0
+      LENGTH 1.49391333257131
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      COLOR 16810239 R
+      SEL 0
+      IGUID {3E9AA06D-36C6-47C4-82FD-679975BE3B39}
+      IID 207
+      NAME cochise-drum-cover.mp4
+      VOLPAN 1 0 1 -1
+      SOFFS 166.06216241988483
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FCAC7AA3-BAA2-4B76-8D58-149521E85CAD}
+      <SOURCE VIDEO
+        FILE "video-in\cochise-drum-cover.mp4"
+      >
+    >
+    <ITEM
+      POSITION 170.28904153430682
+      SNAPOFFS 0
+      LENGTH 5.97565333028518
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      COLOR 29392896 R
+      SEL 0
+      IGUID {01AAA1FB-091E-4954-8CB5-DE9E3F175100}
+      IID 207
+      NAME cochise-drum-cover.mp4
+      VOLPAN 1 0 1 -1
+      SOFFS 167.55607575245614
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {94A9249D-DD65-420D-BADD-EF8838603386}
+      <SOURCE VIDEO
+        FILE "video-in\cochise-drum-cover.mp4"
+      >
+    >
+    <ITEM
+      POSITION 176.264694864592
+      SNAPOFFS 0
+      LENGTH 4.470050660574
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      COLOR 33489024 R
+      SEL 0
+      IGUID {A46EFD85-3534-43E6-AF63-B494580CE0F0}
+      IID 207
+      NAME cochise-drum-cover.mp4
+      VOLPAN 1 0 1 -1
+      SOFFS 173.53172908274132
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AAA948F0-6A82-42E4-ACDF-A0823A0E1AF6}
+      <SOURCE VIDEO
+        FILE "video-in\cochise-drum-cover.mp4"
+      >
+    >
+    <ITEM
+      POSITION 180.73474552516601
+      SNAPOFFS 0
+      LENGTH 2.98003377371612
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      COLOR 33554431 R
+      SEL 0
+      IGUID {5C495BC4-8149-448C-9BF6-72622DC4EBC4}
+      IID 207
+      NAME cochise-drum-cover.mp4
+      VOLPAN 1 0 1 -1
+      SOFFS 178.00177974331532
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {698AD4A8-FD58-42BB-A982-CAE92D17E323}
+      <SOURCE VIDEO
+        FILE "video-in\cochise-drum-cover.mp4"
+      >
+    >
+    <ITEM
+      POSITION 183.71477929888212
+      SNAPOFFS 0
+      LENGTH 5.96011920502337
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      COLOR 33554431 R
+      SEL 0
+      IGUID {D87BA457-07D2-4F72-AEA6-CCDC404D64EA}
+      IID 207
+      NAME cochise-drum-cover.mp4
+      VOLPAN 1 0 1 -1
+      SOFFS 180.98181351703144
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {104A6862-DDA4-45A5-93BF-4BDA7EC17678}
+      <SOURCE VIDEO
+        FILE "video-in\cochise-drum-cover.mp4"
+      >
+    >
+    <ITEM
+      POSITION 189.6748985039055
+      SNAPOFFS 0
+      LENGTH 5.21792484310691
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      COLOR 16842751 R
+      SEL 0
+      IGUID {E353B050-B064-4113-AA3E-891695BFA923}
+      IID 207
+      NAME cochise-drum-cover.mp4
+      VOLPAN 1 0 1 -1
+      SOFFS 186.94193272205482
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0AA393D9-8E81-4900-9C90-A4F4FAEF6F74}
+      <SOURCE VIDEO
+        FILE "video-in\cochise-drum-cover.mp4"
+      >
+    >
+    <ITEM
+      POSITION 194.89282334701241
+      SNAPOFFS 0
+      LENGTH 0.74536617713838
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      COLOR 16810239 R
+      SEL 0
+      IGUID {F53DD454-1785-4D5F-9478-A03B36542A37}
+      IID 207
+      NAME cochise-drum-cover.mp4
+      VOLPAN 1 0 1 -1
+      SOFFS 192.15985756516173
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {609533AB-DD6D-4F08-8CFC-EE7A4FD09994}
+      <SOURCE VIDEO
+        FILE "video-in\cochise-drum-cover.mp4"
+      >
+    >
+    <ITEM
+      POSITION 195.63818952415079
+      SNAPOFFS 0
+      LENGTH 23.85189486533579
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      COLOR 16777471 R
+      SEL 1
+      IGUID {7AF50012-3B48-4BF8-9A86-9920BFEF897B}
+      IID 207
+      NAME cochise-drum-cover.mp4
+      VOLPAN 1 0 1 -1
+      SOFFS 192.90522374230011
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {12B2A522-708A-4730-8559-05ADD3296A10}
+      <SOURCE VIDEO
+        FILE "video-in\cochise-drum-cover.mp4"
+      >
+    >
+    <ITEM
+      POSITION 219.49008438948658
+      SNAPOFFS 0
+      LENGTH 25.00897509236414
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {592EA5DF-A974-4C5F-BB83-F25D94CEA5A5}
+      IID 207
+      NAME cochise-drum-cover.mp4
+      VOLPAN 1 0 1 -1
+      SOFFS 216.7571186076359
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {34D1C8B9-B46C-4960-8972-980517FFB251}
+      <SOURCE VIDEO
+        FILE "video-in\cochise-drum-cover.mp4"
       >
     >
   >
@@ -673,7 +1224,7 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -1729,7 +2280,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 1 1 -1 -1 1
+    VOLPAN 3.98107170553497 1 -1 -1 1
     MUTESOLO 0 2 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -1767,52 +2318,6 @@
       GUID {367C6161-50EE-466C-BEF4-34876DC361E4}
       <SOURCE MP3
         FILE "audio-in\cochise-drumless.mp3" 1
-      >
-    >
-  >
-  <TRACK {252537F9-6DCD-4CB7-B5DE-BA63F77DFEAA}
-    NAME VIDEO
-    PEAKCOL 16576
-    BEAT -1
-    AUTOMODE 0
-    VOLPAN 0.29322214811631 -0.992 -1 -1 1
-    MUTESOLO 0 2 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 0 0
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
-    SEL 0
-    REC 0 0 1 0 0 0 0 0
-    VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {252537F9-6DCD-4CB7-B5DE-BA63F77DFEAA}
-    PERF 0
-    MIDIOUT -1
-    MAINSEND 1 0
-    <ITEM
-      POSITION 2.73296578185068
-      SNAPOFFS 0
-      LENGTH 241.7660937
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {A90AEF54-D7C0-429E-845E-3708BF50234B}
-      IID 207
-      NAME cochise-drum-cover.mp4
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {E30928A2-4603-41E6-A93F-7C74213D6E4D}
-      <SOURCE VIDEO
-        FILE "video-in\cochise-drum-cover.mp4"
       >
     >
   >
