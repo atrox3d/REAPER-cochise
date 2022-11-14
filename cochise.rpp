@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.68/win64" 1668243791
+<REAPER_PROJECT 0.1 "6.68/win64" 1668273260
   <NOTES 0 2
   >
   RIPPLE 0
@@ -17,8 +17,8 @@
   VIDEO_CONFIG 0 0 256
   PANMODE 3
   CURSOR 162.33590420345769
-  ZOOM 23.31890137019531 4462 0
-  VZOOMEX 4 40
+  ZOOM 299.39568042187562 50145 0
+  VZOOMEX 4 355
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -60,8 +60,8 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4
   PLAYRATE 1 1 0.25 4
-  SELECTION 4 4
-  SELECTION2 4 4
+  SELECTION 0 0
+  SELECTION2 0 0
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -667,14 +667,14 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 3.98107170553497 0 -1 -1 1
+    VOLPAN 0.83172480433424 1 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -970,7 +970,7 @@
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
       COLOR 16777471 R
-      SEL 1
+      SEL 0
       IGUID {7D6DCC31-AFA2-46BA-819D-B127B7C893F5}
       IID 207
       NAME cochise-drum-cover.mp4
@@ -1218,7 +1218,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 3.98107170553497 0 -1 -1 1
+    VOLPAN 1.66917422443258 1 -1 -1 1
     MUTESOLO 0 2 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -1620,7 +1620,7 @@
       WAK 0 0
       BYPASS 0 0 0
       <JS sstillwell/eventhorizon2 ""
-        0 -0.1 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+        0 0 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
       >
       FLOATPOS 0 0 0 0
       FXID {8C354137-D913-4529-9285-B7B5BBB000F1}
@@ -2437,7 +2437,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
+    VOLPAN 2.82228359587932 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -2483,14 +2483,14 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
+    VOLPAN 1.08695635014794 0.984 -1 -1 1
     MUTESOLO 0 2 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -2508,7 +2508,7 @@
       DOCKED 0
     >
     <ITEM
-      POSITION 6.67265783895578
+      POSITION 6.71686377427463
       SNAPOFFS 0
       LENGTH 222.4355625
       LOOP 1
@@ -2516,7 +2516,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {CF5EB7B9-9BD3-4314-8E42-8D771C8BA6CA}
       IID 2
       NAME cochise-vocals.mp3
